@@ -1,0 +1,21 @@
+//mohamed hamdy id:20216531 
+import java.util.Scanner;
+
+public class PumGame {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        sc.close();
+
+        int num = 1;
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print(num + " ");
+            num++;
+            System.out.print(num + " ");
+            num++;
+            System.out.print(num + " PUM\n");
+            num++;
+        }
+    }
+}
